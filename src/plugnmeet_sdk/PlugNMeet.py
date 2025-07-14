@@ -3,8 +3,8 @@ from aiohttp import ClientSession
 from .utils import generate_hmac
 from json import dumps
 from .schemas.requests import *
-from attr import asdict
-from exceptions import RequestErrorException
+from dataclasses import asdict
+from .exceptions import RequestErrorException
 
 class PlugNMeet:
     def __init__(self, base_url:str, api_key:str, api_secret: str):
