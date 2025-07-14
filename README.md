@@ -5,7 +5,7 @@ A Pythonic SDK for `PlugNMeet` meeting platform
 ## Installation
 
 ```sh
-pip install plugnmeet
+pip install plugnmeet-sdk
 ```
 
 ## Implemented:
